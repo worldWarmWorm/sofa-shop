@@ -1,0 +1,36 @@
+@import 'vars';
+@import 'libs';
+@import '../modules/header/header';
+@import '../modules/menu/menu';
+@import '../modules/footer/footer';
+@import '../modules/sofa-catalog/sofa-catalog';
+@import '../modules/catalog-page/catalog-page';
+@import '../modules/news/news';
+
+body {
+    color: #444;
+    font-family: 'Montserrat';
+    letter-spacing: 0.02em;
+    font-size: 14px;
+}
+
+a {
+    transition: .3s;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    background-color: #fff;
+    // margin: 0 auto;
+}
+
+@import 'media';

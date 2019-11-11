@@ -1,0 +1,219 @@
+@media screen and (max-width: 1199px) {
+    .menu__btn {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20px;
+        z-index: 5;
+        padding: 0;
+
+        a {
+            display: block;
+            background-color: #2e2e2e;
+            text-align: center;
+
+            &:first-child {
+                width: auto;
+                height: auto;
+                border-radius: 0;
+                margin-right: 0;
+                padding-left: 0;
+
+                &::after {
+                    width: 0px;
+                }
+
+                &::before {
+                    width: 0px;
+                }
+            }
+        }
+    }
+
+    .catalog {
+        display: none;
+    }
+
+    .menu {
+        background-color: #fff;
+    }
+
+    .news {
+        text-align: center;
+    }
+
+    .all-news-buttom {
+        width: 200px;
+        margin-left: calc(100% - 210px);
+    }
+
+    .col-xl-3 {
+        padding-right: 21px;
+        padding-left: 21px;
+    }
+
+    .path {
+        display: none;
+    }
+
+    .news-slider .slick-common:focus {
+        color: #000;
+    }
+
+    button.hovered {
+        opacity: 1 !important;
+    }
+
+    .title {
+        text-align: center;
+        margin: 30px 0 30px;
+    }
+
+    .footer__addres,
+    .footer__contacts {
+        text-align: center !important;
+    }
+
+    button.hovered {
+        right: 4%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .slick-prev,
+    .slick-next {
+        display: none !important;
+    }
+
+    .slide__text {
+        height: 100px;
+
+        div {
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .slick-dots {
+        left: 42%;
+    }
+
+    .slide__text {
+        height: 80px;
+
+        div {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    .sofa-catalog__content-text h1,
+    .sofa-catalog__content-text h2,
+    .sofa-catalog__content-text h3,
+    .sofa-catalog__content-text h4,
+    .sofa-catalog__content-text h5,
+    .sofa-catalog__content-text h6 {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .news h3 {
+        text-align-last: left;
+    }
+
+    .slide__text {
+        width: 70%;
+        height: 75px;
+
+        div {
+            font-size: 14px;
+            margin: 0 0 20px;
+            padding-left: 20px;
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) {
+
+    .search__top,
+    .logo {
+        text-align: center;
+    }
+
+    .search__bottom,
+    .connect__bottom-adress {
+        margin-bottom: 15px;
+    }
+
+    .connect__bottom-adress {
+        padding-left: 10px;
+
+    }
+
+    .basket {
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .search__top {
+        text-align: right;
+    }
+
+    .connect__top {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    .connect__bottom {
+        text-align: center;
+    }
+
+    .connect__bottom-adress {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .nav {
+        display: flex !important;
+        justify-content: space-between;
+    }
+
+    .menu__content-left {
+        float: left;
+    }
+
+}

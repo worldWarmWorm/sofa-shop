@@ -1,0 +1,65 @@
+@import 'slider/slider';
+
+
+.sofa-catalog__content-text h1,
+.sofa-catalog__content-text h2,
+.sofa-catalog__content-text h3 {
+    font-family: 'Oswald';
+}
+
+.sofa-catalog__content-text h1,
+.sofa-catalog__content-text h2,
+.sofa-catalog__content-text h3,
+.sofa-catalog__content-text h4,
+.sofa-catalog__content-text h5,
+.sofa-catalog__content-text h6 {
+    padding: 36px 0;
+    color: #2e2e2e;
+}
+
+.sofa-catalog__content-text h1 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 47px;
+}
+
+.sofa-catalog__content-text h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.sofa-catalog__content-text h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.sofa-catalog__content-text h4 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0 46px;
+}
+
+.sofa-catalog__content-text h5 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 25px 0;
+}
+
+.sofa-catalog__content-text h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 0 5px;
+}
+
+.sofa-catalog__content-text p {
+    line-height: 21px;
+
+    &:last-child {
+        padding-bottom: 15px;
+    }
+}
