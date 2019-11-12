@@ -56,11 +56,12 @@
     a {
         color: #fff;
 
-        &:focus {
+        &:not(:first-child):focus {
             color: $or;
         }
     }
 }
+
 
 .menu__content {
     position: relative;

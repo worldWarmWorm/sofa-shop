@@ -67,10 +67,10 @@ gulp.task('export', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('app/scss/*.scss', gulp.parallel('scss'));
+    gulp.watch('app/**/**/*.scss', gulp.parallel('scss'));
     gulp.watch('app/*.html', gulp.parallel('html'));
-    gulp.watch('app/js/*.js', gulp.parallel('script'));
-    gulp.watch('app/*.pug', gulp.parallel('pug'));
+    gulp.watch('app/js/**/**/*.js', gulp.parallel('script'));
+    gulp.watch('app/**/**/**/*.pug', gulp.parallel('pug'));
 });
 
 gulp.task('build', gulp.series('clean', 'export'));

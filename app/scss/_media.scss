@@ -83,12 +83,20 @@
         right: 4%;
     }
 
+    .footer::before {
+        bottom: 8em;
+    }
+
+    .politica {
+        margin-top: 35px;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
 
-    .slick-prev,
-    .slick-next {
+    .slider .slick-prev,
+    .slider .slick-next {
         display: none !important;
     }
 
@@ -129,6 +137,11 @@
         line-height: 1.4rem;
         padding: 20px 0;
     }
+
+    .search__top,
+    .logo {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 520px) {
@@ -149,6 +162,12 @@
     }
 }
 
+@media screen and (max-width: 514px) {
+    .footer::before {
+        bottom: 10em;
+    }
+}
+
 
 
 
@@ -159,11 +178,6 @@
 
 
 @media screen and (min-width: 320px) {
-
-    .search__top,
-    .logo {
-        text-align: center;
-    }
 
     .search__bottom,
     .connect__bottom-adress {
